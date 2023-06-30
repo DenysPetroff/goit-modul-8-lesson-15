@@ -1,0 +1,2 @@
+function e(e,o,n,l){Object.defineProperty(e,o,{get:n,set:l,enumerable:!0,configurable:!0})}var o,n={};o=n,Object.defineProperty(o,"__esModule",{value:!0,configurable:!0}),e(n,"add",(function(){return l})),e(n,"User",(function(){return t})),e(n,"default",(function(){return r}));function l(e,o){return console.log("value",10),e+o}class t{constructor(e){this.name=e}}function r(e,o){return console.log("value2",20),e+o}console.log(r),r(),console.log(l),l(),console.log(n),console.log(n.add());const c=new n.User("Test name");console.log(c);
+//# sourceMappingURL=index.f08bf766.js.map
