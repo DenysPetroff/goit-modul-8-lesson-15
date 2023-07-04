@@ -14,3 +14,12 @@ console.log(methods);
 console.log(methods.add());                  // використовуємо з імпортованого модуля тільки функцію add()
 const newUser = new methods.User('Test name');  // використовюємо тільки класс з метода для створення нового об'єкта newUser
 console.log(newUser);
+
+
+import { add3 as customAdd3 } from "./helpers/helper"
+
+function add3() { 
+    console.log('some task');
+}
+console.log(add3);
+console.log(customAdd3);

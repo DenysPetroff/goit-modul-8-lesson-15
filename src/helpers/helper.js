@@ -7,6 +7,12 @@ function add(a, b) {
     console.log("value", value);
     return a + b;
 }
+
+
+function add3(a, b) { 
+    console.log("function add3 return");
+    return a + b;
+}
  
 class User { 
     constructor(name) { 
@@ -16,6 +22,7 @@ class User {
 
 export {
     add,
+    add3,
      User
 }
 
